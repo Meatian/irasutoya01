@@ -1,0 +1,21 @@
+{
+	"name": "irasutoya01", 
+	"applications": {
+		"gecko": {
+			"strict_min_version": "78.0", 
+			"id": "irasutoya01@meatian.net"
+		}
+	}, 
+	"theme": {
+		"images": {
+			"theme_frame": "irasutoya01.png"
+		}, 
+		"colors": {
+			"frame": "#fff", 
+			"tab_background_text": "#222"
+		}
+	}, 
+	"version": "1.0", 
+	"manifest_version": 2, 
+	"description": "Meatian"
+}
