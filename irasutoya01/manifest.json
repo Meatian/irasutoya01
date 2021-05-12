@@ -1,21 +1,46 @@
 {
-	"name": "irasutoya01", 
+	"manifest_version": 2,
+	"name": "irasutoya01",
+	"version": "1.1",
 	"applications": {
 		"gecko": {
-			"strict_min_version": "78.0", 
-			"id": "{Meatian-f573f12c-9f08-49f9-92c1-fe3bce92de05}"
+			"id": "meatian_irasutoya@gmail.com",
+			"strict_min_version": "78.0"
 		}
-	}, 
+	},
+	"description": "Meatian",
 	"theme": {
+		"colors":
+		{	"frame": "#e7e8ec"
+			,"tab_text": "#000"
+			,"tab_line": "#1f9afd"
+			,"tab_loading": "#1f9afd"
+			,"tab_background_text": "#000"
+			,"bookmark_text": "#333"
+			,"toolbar_field": "#f2f2f2"
+			,"toolbar_field_text": "#444"
+			,"toolbar_field_highlight": "#1f9afd"
+			,"toolbar_field_highlight_text": "#fff"
+			,"toolbar_field_border": "#999"
+			,"toolbar_field_focus": "#f2f2f2"
+			,"toolbar_field_text_focus": "#000"
+			,"toolbar_field_border_focus": "#1f9afd"
+			,"toolbar_top_separator": "#aaa"
+			,"toolbar_bottom_separator": "#888"
+			,"toolbar_vertical_separator": "#888"
+			,"sidebar": "#fbfbfb"
+			,"sidebar_text": "#000"
+			,"sidebar_highlight": "rgba(11,113,220,.6)"
+			,"sidebar_highlight_text": "#fff"
+			,"sidebar_border": "#999"
+			,"popup": "#e6e8ef"
+			,"popup_text": "#000"
+			,"popup_border": "#666"
+			,"popup_highlight": "#1f9afd"
+			,"popup_highlight_text": "#fff"
+		},
 		"images": {
 			"theme_frame": "irasutoya01.png"
-		}, 
-		"colors": {
-			"frame": "#fff", 
-			"tab_background_text": "#222"
 		}
-	}, 
-	"version": "1.0", 
-	"manifest_version": 2, 
-	"description": "Meatian"
+	}
 }
